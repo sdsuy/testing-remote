@@ -12,12 +12,9 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.springframework.beans.factory.annotation.Autowired;
-
 
 class TestingConsoleApptimTests {
-	
-	@Autowired
+
 	WebDriver driver;
 	
 	@BeforeEach
